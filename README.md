@@ -12,9 +12,9 @@ mv assignment1/Dockerfile ./
 
 3. build the docker image 
 
-docker build -t <YOUR IMAGE NAME> .
+docker build -t YOUR_IMAGE_NAME .
 
 4. Run you container from newly created image 
 
-docker run -p 80:80 <YOUR IMAGE NAME> 
+docker run -p 80:80 YOUR_IMAGE_NAME 
 
